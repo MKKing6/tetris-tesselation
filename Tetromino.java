@@ -149,7 +149,7 @@ class Z extends Tetromino {
 
   public void draw(int drawX, int drawY) {
     for (int i = 0; i < 4; i++) {
-      image[i] = new Image((drawX + x + currentRot[i][0]) * px + px/2, (drawY + y + currentRot[i][1]) * px + px/2, "Z.png");
+      image[i] = new Image((drawX + x + currentRot[i][0]) * px + px/2, (drawY + y + currentRot[i][1]) * px + px/2, "Image/Z.png");
       image[i].setScale((double)px/30, (double)px/30);
     }
   }
@@ -175,7 +175,7 @@ class L extends Tetromino {
 
   public void draw(int drawX, int drawY) {
     for (int i = 0; i < 4; i++) {
-      image[i] = new Image((drawX + x + currentRot[i][0]) * px + px/2, (drawY + y + currentRot[i][1]) * px + px/2, "L.png");
+      image[i] = new Image((drawX + x + currentRot[i][0]) * px + px/2, (drawY + y + currentRot[i][1]) * px + px/2, "Image/L.png");
       image[i].setScale((double)px/30, (double)px/30);
     }
   }
@@ -199,7 +199,7 @@ class O extends Tetromino {
 
   public void draw(int drawX, int drawY) {
     for (int i = 0; i < 4; i++) {
-      image[i] = new Image((drawX + x + currentRot[i][0]) * px + px/2, (drawY + y + currentRot[i][1]) * px + px/2, "O.png");
+      image[i] = new Image((drawX + x + currentRot[i][0]) * px + px/2, (drawY + y + currentRot[i][1]) * px + px/2, "Image/O.png");
       image[i].setScale((double)px/30, (double)px/30);
     }
   }
@@ -224,7 +224,7 @@ class S extends Tetromino {
 
   public void draw(int drawX, int drawY) {
     for (int i = 0; i < 4; i++) {
-      image[i] = new Image((drawX + x + currentRot[i][0]) * px + px/2, (drawY + y + currentRot[i][1]) * px + px/2, "S.png");
+      image[i] = new Image((drawX + x + currentRot[i][0]) * px + px/2, (drawY + y + currentRot[i][1]) * px + px/2, "Image/S.png");
       image[i].setScale((double)px/30, (double)px/30);
     }
   }
@@ -249,7 +249,7 @@ class I extends Tetromino {
 
   public void draw(int drawX, int drawY) {
     for (int i = 0; i < 4; i++) {
-      image[i] = new Image((drawX + x + currentRot[i][0]) * px + px/2, (drawY + y + currentRot[i][1]) * px + px/2, "I.png");
+      image[i] = new Image((drawX + x + currentRot[i][0]) * px + px/2, (drawY + y + currentRot[i][1]) * px + px/2, "Image/I.png");
       image[i].setScale((double)px/30, (double)px/30);
     }
   }
@@ -275,7 +275,7 @@ class J extends Tetromino {
 
   public void draw(int drawX, int drawY) {
     for (int i = 0; i < 4; i++) {
-      image[i] = new Image((drawX + x + currentRot[i][0]) * px + px/2, (drawY + y + currentRot[i][1]) * px + px/2, "J.png");
+      image[i] = new Image((drawX + x + currentRot[i][0]) * px + px/2, (drawY + y + currentRot[i][1]) * px + px/2, "Image/J.png");
       image[i].setScale((double)px/30, (double)px/30);
     }
   }
@@ -301,7 +301,7 @@ class T extends Tetromino {
 
   public void draw(int drawX, int drawY) {
     for (int i = 0; i < 4; i++) {
-      image[i] = new Image((drawX + x + currentRot[i][0]) * px + px/2, (drawY + y + currentRot[i][1]) * px + px/2, "T.png");
+      image[i] = new Image((drawX + x + currentRot[i][0]) * px + px/2, (drawY + y + currentRot[i][1]) * px + px/2, "Image/T.png");
       image[i].setScale((double)px/30, (double)px/30);
     }
   }
